@@ -1,0 +1,91 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100;
+    margin: 0;
+    padding: 0;
+    /*-------------------*/
+    background-image: linear-gradient( 130deg, hsl(60deg 4% 26%) 0%, hsl(37deg 2% 45%) 9%, hsl(20deg 1% 58%) 17%, hsl(7deg 2% 69%) 24%, hsl(0deg 2% 72%) 31%, hsl(0deg 2% 64%) 39%, hsl(0deg 1% 54%) 46%, hsl(0deg 1% 41%) 54%, hsl(0deg 2% 33%) 63%, hsl(0deg 2% 27%) 73%, hsl(0deg 2% 19%) 85%, hsl(0deg 0% 0%) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*-------------------------------------*/
+
+
+/*----------Bass Drum------------------*/
+
+#Bass-drum-div {
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 25rem;
+    left: 33rem;
+}
+
+#Bass-drum {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 9rem;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.max {
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+}
+
+
+/*-------------------------------------*/
+
+
+/*------------hovers-------------*/
+
+#Bass-drum:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------*/
+
+
+/*---------------media screens-----------------*/
+
+@media screen and (max-width:800px) {
+    #Bass-drum-div {
+        top: 25rem;
+        left: 10rem;
+    }
+}
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/*------------font-faces------------------------*/
+
+@font-face {}
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
