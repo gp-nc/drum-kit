@@ -47,23 +47,27 @@ body {
 }
 
 .sym {
-    width: 20rem;
-    height: 27rem;
+    width: 15rem;
+    height: 15rem;
     position: absolute;
-    top: 15rem;
+    top: 24rem;
     left: 45rem;
-    z-index: 10;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-image: url(./inst/sym.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.toto {
-    position: relative;
-}
 
-.symbol-div {
-    width: 4rem;
-    height: 4rem;
-    z-index: 1;
-}
+/* .sym {
+    background-image: url(./inst/sym.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
 
 
 /*-------------------------------------*/
@@ -77,8 +81,9 @@ body {
 }
 
 .sym:hover {
-    width: 20.5rem;
-    height: 27.5rem;
+    width: 15.5rem;
+    height: 15.5rem;
+    border-color: gold;
 }
 
 
@@ -96,7 +101,7 @@ body {
         left: 10rem;
     }
     .sym {
-        top: 12.5rem;
+        top: 25rem;
         left: 23rem;
         z-index: 1;
     }
