@@ -59,6 +59,63 @@ body {
     background-position: center;
 }
 
+.tan {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 5px dashed black;
+    position: absolute;
+}
+
+
+/*----------------------------------------*/
+
+.hig-tom-div {
+    width: 13rem;
+    top: 9rem;
+    left: 45rem;
+    background-color: whitesmoke;
+}
+
+.mid-tom-div {
+    width: 13rem;
+    top: 10rem;
+    left: 33rem;
+    background-color: whitesmoke;
+}
+
+.snare-drum-button {
+    width: 14rem;
+    top: 38rem;
+    left: 30rem;
+    background-color: whitesmoke;
+}
+
+.floor-tom-div {
+    width: 13rem;
+    top: 38rem;
+    left: 45rem;
+    background-color: whitesmoke;
+}
+
+.hi-hat {
+    top: 25rem;
+    left: 25rem;
+    border: solid black 5px;
+    background-image: url(./inst/sym.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button:hover {
+    border-color: gold;
+    cursor: pointer;
+}
+
+
+/*-------------------------------------------*/
+
 
 /* .sym {
     background-image: url(./inst/sym.png);
@@ -81,8 +138,6 @@ body {
 }
 
 .sym:hover {
-    width: 15.5rem;
-    height: 15.5rem;
     border-color: gold;
 }
 
@@ -95,6 +150,7 @@ body {
 @media screen and (max-width:800px) {
     body {
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     #Bass-drum-div {
         top: 25rem;
@@ -104,6 +160,26 @@ body {
         top: 25rem;
         left: 23rem;
         z-index: 1;
+    }
+    .hig-tom-div {
+        top: 11rem;
+        left: 23rem;
+    }
+    .mid-tom-div {
+        top: 11rem;
+        left: 9rem;
+    }
+    .snare-drum-button {
+        top: 40rem;
+        left: 9rem;
+    }
+    .floor-tom-div {
+        top: 40rem;
+        left: 23rem;
+    }
+    .hi-hat {
+        top: 25rem;
+        left: 0;
     }
 }
 
