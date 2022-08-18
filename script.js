@@ -61,8 +61,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        bass.style.width = '16rem';
-        bass.style.height = '16rem';
+
         bass.style.borderColor = 'gold';
 
 
@@ -76,8 +75,7 @@ document.addEventListener('keyup', (event) => {
     if (name === ' ') {
 
         /*-------------------*/
-        bass.style.width = '15rem';
-        bass.style.height = '15rem';
+
         bass.style.borderColor = 'Black';
 
 
@@ -102,8 +100,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        sym.style.width = '16rem';
-        sym.style.height = '16rem';
+
         sym.style.borderColor = 'gold';
 
 
@@ -118,8 +115,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'c') {
 
         /*-------------------*/
-        sym.style.width = '15rem';
-        sym.style.height = '15rem';
+
         sym.style.borderColor = 'Black';
 
 
@@ -137,8 +133,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        midTom.style.width = '16rem';
-        midTom.style.height = '16rem';
+
         midTom.style.borderColor = 'gold';
 
 
@@ -153,8 +148,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'z') {
 
         /*-------------------*/
-        midTom.style.width = '15rem';
-        midTom.style.height = '15rem';
+
         midTom.style.borderColor = 'Black';
 
 
@@ -171,8 +165,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        highTom.style.width = '16rem';
-        highTom.style.height = '16rem';
+
         highTom.style.borderColor = 'gold';
 
 
@@ -187,8 +180,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'x') {
 
         /*-------------------*/
-        highTom.style.width = '13rem';
-        highTom.style.height = '15rem';
+
         highTom.style.borderColor = 'Black';
 
 
@@ -205,8 +197,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        hiHat.style.width = '16rem';
-        hiHat.style.height = '16rem';
+
         hiHat.style.borderColor = 'gold';
 
 
@@ -221,8 +212,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'v') {
 
         /*-------------------*/
-        hiHat.style.width = '10rem';
-        hiHat.style.height = '15rem';
+
         hiHat.style.borderColor = 'Black';
 
 
@@ -240,8 +230,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        floorTom.style.width = '16rem';
-        floorTom.style.height = '16rem';
+
         floorTom.style.borderColor = 'gold';
 
 
@@ -256,8 +245,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'b') {
 
         /*-------------------*/
-        floorTom.style.width = '13rem';
-        floorTom.style.height = '15rem';
+
         floorTom.style.borderColor = 'Black';
 
 
@@ -274,8 +262,7 @@ document.addEventListener('keydown', (event) => {
         audio.volume = 1.0;
         audio.play();
         /*-------------------*/
-        snareDrum.style.width = '16rem';
-        snareDrum.style.height = '16rem';
+
         snareDrum.style.borderColor = 'gold';
 
 
@@ -290,8 +277,7 @@ document.addEventListener('keyup', (event) => {
     if (name === 'n') {
 
         /*-------------------*/
-        snareDrum.style.width = '14rem';
-        snareDrum.style.height = '15rem';
+
         snareDrum.style.borderColor = 'Black';
 
 

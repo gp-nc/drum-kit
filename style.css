@@ -7,10 +7,8 @@ body {
     margin: 0;
     padding: 0;
     /*-------------------*/
-    background-image: linear-gradient( 130deg, hsl(60deg 4% 26%) 0%, hsl(37deg 2% 45%) 9%, hsl(20deg 1% 58%) 17%, hsl(7deg 2% 69%) 24%, hsl(0deg 2% 72%) 31%, hsl(0deg 2% 64%) 39%, hsl(0deg 1% 54%) 46%, hsl(0deg 1% 41%) 54%, hsl(0deg 2% 33%) 63%, hsl(0deg 2% 27%) 73%, hsl(0deg 2% 19%) 85%, hsl(0deg 0% 0%) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: grey;
+    font-family: Silkscreen-Bold;
 }
 
 
@@ -51,7 +49,7 @@ body {
     height: 15rem;
     position: absolute;
     top: 24rem;
-    left: 45rem;
+    left: 50rem;
     border-radius: 50%;
     border: 5px solid black;
     background-image: url(./inst/sym.png);
@@ -65,6 +63,7 @@ body {
     border-radius: 50%;
     border: 5px dashed black;
     position: absolute;
+    font-family: Aboreto-Regular;
 }
 
 
@@ -72,40 +71,41 @@ body {
 
 .hig-tom-div {
     width: 13rem;
-    top: 9rem;
-    left: 45rem;
+    top: 7rem;
+    left: 43rem;
     background-color: whitesmoke;
 }
 
 .mid-tom-div {
     width: 13rem;
-    top: 10rem;
-    left: 33rem;
+    top: 7rem;
+    left: 28rem;
     background-color: whitesmoke;
 }
 
 .snare-drum-button {
     width: 14rem;
-    top: 38rem;
-    left: 30rem;
+    top: 40rem;
+    left: 28rem;
     background-color: whitesmoke;
 }
 
 .floor-tom-div {
     width: 13rem;
-    top: 38rem;
-    left: 45rem;
+    top: 40rem;
+    left: 43rem;
     background-color: whitesmoke;
 }
 
 .hi-hat {
     top: 25rem;
-    left: 25rem;
+    left: 16rem;
     border: solid black 5px;
     background-image: url(./inst/sym.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 15rem;
 }
 
 button:hover {
@@ -154,28 +154,28 @@ button:hover {
     }
     #Bass-drum-div {
         top: 25rem;
-        left: 10rem;
+        left: 14rem;
     }
     .sym {
         top: 25rem;
-        left: 23rem;
+        left: 28rem;
         z-index: 1;
     }
     .hig-tom-div {
         top: 11rem;
-        left: 23rem;
+        left: 25rem;
     }
     .mid-tom-div {
         top: 11rem;
-        left: 9rem;
+        left: 6rem;
     }
     .snare-drum-button {
         top: 40rem;
-        left: 9rem;
+        left: 6rem;
     }
     .floor-tom-div {
         top: 40rem;
-        left: 23rem;
+        left: 25rem;
     }
     .hi-hat {
         top: 25rem;
@@ -195,7 +195,15 @@ button:hover {
 
 /*------------font-faces------------------------*/
 
-@font-face {}
+@font-face {
+    font-family: Aboreto-Regular;
+    src: url(./Aboreto-Regular.ttf);
+}
+
+@font-face {
+    src: url(./Silkscreen-Bold.ttf);
+    font-family: Silkscreen-Bold;
+}
 
 
 /*------------------------------------------*/
